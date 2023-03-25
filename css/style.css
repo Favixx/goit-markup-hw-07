@@ -226,6 +226,7 @@ header .address {
   height: 100%;
   background-color: var(--white);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  overflow: hidden;
 }
 
 .is-open {
@@ -1295,9 +1296,10 @@ textarea {
   .contact-info li+li {
     margin-left: 40px;
   }
-    .filter {
-      padding-top: 172px;
-    }
+
+  .filter {
+    padding-top: 172px;
+  }
 }
 
 @media screen and (min-width:1200px) and (-webkit-min-device-pixel-ratio:2),
