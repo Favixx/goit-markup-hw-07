@@ -174,6 +174,9 @@ body {
 
 .site-navigation li a {
   position: relative;
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 header .site-navigation,
@@ -207,7 +210,7 @@ header .address {
   width: 100%;
   height: 4px;
   left: 0;
-  top: 42px;
+  top: 68px;
   display: block;
   background-color: var(--ocean);
   border-radius: 2px;
@@ -1289,7 +1292,8 @@ textarea {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-
+    padding-top: 24px;
+    padding-bottom: 24px;
     letter-spacing: 0.02em;
   }
 
