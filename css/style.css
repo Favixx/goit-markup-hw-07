@@ -279,7 +279,6 @@ header .address {
 .is-open {
   transform: translateX(0%);
   visibility: visible;
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* -------------------------------------------------- */
@@ -980,6 +979,10 @@ textarea {
   }
 
   .menu_overlay {
+    display: none;
+  }
+
+  .is-open {
     display: block;
   }
 }
