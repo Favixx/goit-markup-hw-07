@@ -250,8 +250,12 @@ header .address {
   margin-bottom: 40px;
 }
 
-.link_list li a {
+.link {
   color: var(--navy-blue);
+}
+
+.active {
+  color: var(--ocean);
 }
 
 .tel_mail {
