@@ -498,7 +498,7 @@ textarea {
 }
 
 .logo-footer {
-  display: block;
+  display: inline-block;
   text-decoration: none;
   text-transform: uppercase;
   text-align: center;
