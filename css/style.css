@@ -978,6 +978,10 @@ textarea {
   .menu_btn {
     display: flex;
   }
+
+  .menu_overlay {
+    display: block;
+  }
 }
 
 /* -------------------------------------------------------- */
