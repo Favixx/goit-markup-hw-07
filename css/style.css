@@ -992,6 +992,10 @@ textarea {
     display: none;
   }
 
+  .menu_overlay {
+    display: none;
+  }
+
   .features-list {
     display: flex;
     flex-wrap: wrap;
