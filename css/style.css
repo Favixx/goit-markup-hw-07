@@ -1295,6 +1295,9 @@ textarea {
   .contact-info li+li {
     margin-left: 40px;
   }
+    .filter {
+      padding-top: 172px;
+    }
 }
 
 @media screen and (min-width:1200px) and (-webkit-min-device-pixel-ratio:2),
